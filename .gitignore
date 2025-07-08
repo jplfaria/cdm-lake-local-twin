@@ -1,0 +1,54 @@
+# Data files - NEVER commit these
+data/
+*.parquet
+*.csv
+*.tsv
+*.json
+*.avro
+*.orc
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Spark
+spark-warehouse/
+derby.log
+metastore_db/
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Claude
+.claude/
